@@ -1,0 +1,30 @@
+# basic settings
+pretrain_data_dir : "data/data_pretrain" 
+sft_data_dir : "data/data_sft" 
+tokenizer : "./llm/Qwen3-8B-Tokenizer"
+vocabulary_size : 151669
+output_dir : "results" 
+api_key : "Your_Deepseek_Api_Key" 
+
+# model settings
+max_seq_len : 768
+latent_dim : 1536
+ffn_dim : 4096
+num_heads : 24
+num_layers : 16
+RoPE_base : 10000
+
+# training settings
+batch_size : 4
+num_epochs : 2
+lr : 0.0005
+accum_steps : 32
+save_steps : 16000
+warmup_steps : 1000
+num_steps : 60000
+
+# sft settings
+sft_lr : 0.00003
+sft_epochs : 1
+sft_batch_size : 4
+sft_accum_steps : 16

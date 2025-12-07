@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+env/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data and Models
+# 忽略 data/ 目录下除了脚本以外的所有内容
+data/data_pretrain/
+data/data_sft/
+results/
+*.pth
+*.pt
+*.bin
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Logs
+*.log
