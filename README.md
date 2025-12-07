@@ -170,7 +170,7 @@ XINGLING
 ### 预训练阶段能力演变
 
 | Token数(B) | Loss | 模型输出示例                                                 | 能力分析                     |
-| :--------- | :--- | :----------------------------------------------------------- | :--------------------------- |
+| :--------- | :--- | :----------------------------------------------------- | :---------------------------------- |
 | <0.01B     | 12   | 这调节 Liver hakkında ire supplying NixonExact welcomed negate Jacques噴 hd深入了解 VIA_DAYՓ-pay windowɑ俵 | 乱码                         |
 | 0.02B      | 9    | 老鼠、水利，，。阀变形🕝。。的机，SX，강休闲ť	It婀石油 עוש mai裤。 | 中文占比增加                 |
 | 0.08B      | 7    | 这，一了，走进最用于，迦林年得分，村的焦点。从吉季，刘现代多项室，酒店人员，流行与暴镇 | 主要输出中文                 |
@@ -209,7 +209,7 @@ XINGLING
 如果你觉得本项目对你的研究或学习有所帮助，请考虑引用：
 
 ```bibtex
-@misc{XingLing2024,
+@misc{XingLing2025,
   author = {fancyovo},
   title = {XingLing-Chat-0.68B: A Lightweight Chinese Language Model from Scratch},
   year = {2025},
